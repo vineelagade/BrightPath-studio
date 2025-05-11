@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightPath Studio - Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <nav class="navbar">
+            <h1>BrightPath Studio</h1>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to BrightPath Studio</h1>
+            <p>Helping organizations engage people and showcase their value.</p>
+            <a href="#services" class="cta-btn">Explore Our Services</a>
+        </div>
+    </section>
+    <!-- Service Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-card" id="seo">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/026/268/060/small_2x/business-people-use-seo-tools-unlocking-online-potential-boost-visibility-attract-organic-traffic-and-dominate-search-engine-rankings-with-strategic-optimization-techniques-digital-marketing-photo.jpg" alt="SEO Optimization">
+                <h3>SEO Optimization</h3>
+                <p>Boost your website's visibility and drive organic traffic.We analyze your website's current SEO performance and identify areas for improvement.
+                    We identify high-impact keywords tailored to your niche to help you rank higher on search engines.
+                </p>
+            </div>
+
+            <div class="service-card" id="branding">
+                <img src="https://www.maddesigns.in/blog/wp-content/uploads/2024/06/branding-advertisment-scaled.jpg" alt="Branding">
+                <h3>Branding</h3>
+                <p>Our branding services include logo design, brand strategy, visual identity, and Build a powerful brand identity that resonates.
+                    work closely with clients to understand their goals and vision.</p>
+            </div>
+
+            <div class="service-card" id="content">
+                <img src="https://media.licdn.com/dms/image/v2/D4D12AQHxw6ko8MSJ2g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1664308017725?e=2147483647&v=beta&t=arKX1mLubrLp1K9MklBloI_qzZju-zBoynOu6G-hl7E" alt="Content Marketing">
+                <h3>Content Marketing</h3>
+                <p>Engage and convert your audience with impactful content. We create compelling content strategies, blogs, social media content, email marketing campaigns.
+                    We create a content strategy that aligns with your business goals, increasing both engagement and conversions.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>BrightPath Studio is a digital agency that helps startups and small businesses grow through SEO, branding, and content marketing.
+            With a deep understanding of the digital ecosystem, we design solutions that are not only effective but also sustainable. Our goal is to create lasting impressions and drive meaningful growth for businesses through tailored digital strategies that speak to their audience’s needs.
+            We understand that every business is unique, and that's why we take a personalized approach to every project.
+            Our mission is to empower small businesses and startups with the tools and strategies they need to succeed online. By providing expert guidance and creating customized solutions, we help our clients achieve their digital marketing goals and grow their businesses.</p>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="service-card">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 BrightPath Design. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
